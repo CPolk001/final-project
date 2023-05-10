@@ -1,24 +1,33 @@
 /* ADD YOUR CUSTOM CSS TO THIS FILE */
 
-.col-md-8
-	{
-	background-color: #189AB4;
-	color: #fff;
-	font-family: 'Source Serif 4', serif;
-}
-
 .col-md-4
 	{
 	background-color: #189AB4;
-	color: #fff;
-	font-family: 'Source Serif 4', serif;
+	color: #DFCAA3;
+	font-family: 'Almarai', sans-serif;
 }
 
 .col-md-6
 	{
 	background-color: #189AB4;
 	color: #fff;
-	font-family: 'Source Serif 4', serif;
+	font-family: 'Almarai', sans-serif;
+}
+
+.col-md-8
+	{
+	background-color: #189AB4;
+	color: #DFCAA3;
+	font-family: 'Almarai', sans-serif;
+}
+
+.col-md-12
+	{
+	padding-top: 25px;
+	padding-bottom: 25px;
+	background-color: #189AB4;
+	color: #fff;
+	font-family: 'Almarai', sans-serif;
 }
 
 .nav-link
@@ -28,11 +37,77 @@
 
 .hero
 	{
-	background-color: #75E6DA;
+	background-color: #189AB4;
+}
+
+.bullet-list {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  list-style: none;
+  text-align: left;
+}
+
+.bullet-list li {
+  display: flex;
+  align-items: center;
+  grid-column: 2;
+  position: relative;
+}
+
+.bullet-list li::before {
+  content: "\2022";
+  position: absolute;
+  left: -1.25em;
+}
+
+.carousel-control-prev-icon {
+ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+#pitched
+	{
+	color: #fff;
+	background-color: #189AB4;
+	text-align: center;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+#unpitched
+	{
+	color: #fff;
+	background-color: #189AB4;
+	text-align: center;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+#body
+	{
+	color: #fff;
+	background-color: #189AB4;
+	text-align: center;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+#wind
+	{
+	color: #fff;
+	background-color: #189AB4;
+	text-align: center;
+	padding-left: 50px;
+	padding-right: 50px;
 }
 
 #footer
 	{
+	padding-top: 10px;
+	padding-bottom: 10px;
 	background-color: #05445E;
 	color: #fff;
 }
@@ -40,11 +115,104 @@
 #pagetitle
 	{
 	padding-top: 5px;
-	font-family: 'Source Serif 4', serif;
 }
 
 #centertitle
 	{
 	text-align: center;
 	padding-top: 5px;
+}
+
+img{
+	max-width: 100%;
+}
+
+.gallery{
+	padding-top: 25px;
+	background-color: #189AB4;
+}
+
+.gallery img{
+	background-color: #DFCAA3;
+	padding: 8px;
+	width: 100%;
+	box-shadow: 0 0 15px rgba(0,0,0,0.3);
+	cursor: pointer;
+}
+
+#gallery-modal .modal-img{
+	width: 100%;
+}
+
+/* mouse over link */
+a.pagelinks:link {
+  color: #05445E;
+}
+
+/* visited link */
+a.pagelinks:visited {
+  color: #05445E;
+}
+
+/* mouse over link */
+a.pagelinks:hover {
+  color: #B8004C;
+}
+
+/* selected link */
+a.pagelinks:active {
+  color: #fff;
+}
+
+a.dropdown-item {
+	color: #189AB4;
+}
+
+a.dropdown-item:hover {
+	color: #DFCAA3;
+}
+
+a.dropdown-item:active {
+	color: #05445E;
+}
+
+a.nav-link {
+	color: #DFCAA3;
+}
+
+.dropdown-item:active{
+ background-color: #D3D3D3;
+}
+
+.fa 
+	{
+  padding: 10px;
+  font-size: 15px;
+  width: 75px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover 
+	{
+    opacity: 0.7;
+}
+
+.fa-youtube 
+	{
+  background: #DFCAA3;
+  color: #189AB4;
+}
+
+.fa-instagram 
+	{
+  background: #DFCAA3;
+  color: #189AB4;
+}
+
+.fa-soundcloud 
+	{
+  background: #DFCAA3;
+  color: #189AB4;
 }

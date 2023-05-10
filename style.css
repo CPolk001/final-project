@@ -180,6 +180,26 @@ a.nav-link {
 	color: #DFCAA3;
 }
 
+/* mouse over link */
+a.home:link {
+  color: #DFCAA3;
+}
+
+/* visited link */
+a.home:visited {
+  color: #DFCAA3;
+}
+
+/* mouse over link */
+a.pahomegelinks:hover {
+  color: #DFCAA3;
+}
+
+/* selected link */
+a.home:active {
+  color: #DFCAA3;
+}
+
 .dropdown-item:active{
  background-color: #D3D3D3;
 }
